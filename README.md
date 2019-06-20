@@ -1,5 +1,6 @@
 # Week Two - Hotel Website
 ## Here we go! Let's start building up behaviour on a website!
+Make sure you flip through the slides to refresh your memory on jQuery. Let me know if you have any questions.
 
 This is a website for a boutique hotel where we will make it more exciting by using our JavaScript skills.
 
