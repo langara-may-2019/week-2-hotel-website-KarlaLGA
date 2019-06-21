@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 /* Main Styling */
 html,body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -130,7 +131,7 @@ p {
 /* ********************** */
 
 #about .dropdown {
-  display: none;
+  /* display: none; */
   position: absolute;
   width: 250px;
 }

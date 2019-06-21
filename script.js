@@ -6,6 +6,7 @@
 // 6. STRETCH - try making this a different way. Maybe you could make it dissapear with a jquery function. The li is hidden by using the CSS display: none;. Remove the CSS, and use jquery to hide and reveal the menu. Or perhaps you could toggle a class on and off. The possibilities are endless!  
 
 
+
 // Example  👇 
 // $('').on(" ",function() {
 //       $('', this).something().something();
@@ -14,3 +15,13 @@
 //       $('', this).something().something();
 //     }
 //   );
+
+$('.dropdown').css('display', 'none')
+
+$('#about').hover(function() {
+    $('.dropdown').slideDown('fast')
+})
+
+$('#about').mouseleave(function() {
+    $('.dropdown').slideUp('fast')
+})
